@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/students/highest-grade', to: 'students#highest_grade'
 
   get '/students/:id', to: 'students#show'
+
 end
